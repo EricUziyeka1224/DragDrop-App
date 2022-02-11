@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import "home.scss";
+@import "builder.scss";
+@import "checkOut.scss";
+
+* {
+  font-family: "Rubik" !important;
+}
+
+button {
+  cursor: pointer;
+}

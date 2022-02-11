@@ -1,0 +1,27 @@
+.checkOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+
+  .checkOutPrice {
+    font-size: 20px;
+  }
+  .checkOutQuantity {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .checkOutButton {
+    button {
+      width: 200px;
+      background-color: rgb(37, 37, 37);
+      color: white;
+      margin: 20px 10px 30px 10px !important;
+      border-radius: 5px;
+    }
+  }
+}

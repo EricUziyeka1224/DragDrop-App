@@ -1,0 +1,41 @@
+.home_icon {
+  position: absolute;
+  right: 50px;
+  /* height: 40px; */
+  top: 34px;
+}
+.selectDesignView {
+  margin-top: -75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1050px !important;
+  .designBox {
+    text-align: center;
+    width: 300px;
+    height: 333px;
+    margin: 20px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: contain;
+    position: relative;
+    box-shadow: 0 0 9px #642a2a;
+    img {
+      width: 300px;
+    }
+    button {
+      border: none;
+      width: 85%;
+      padding: 8px 25px;
+      margin: 10px;
+      border-radius: 2px;
+      background-color: #f7c7c7;
+      position: absolute;
+      box-shadow: 0 0 9px #642a2a;
+      left: 6.2%;
+      top: 75%;
+    }
+  }
+}
